@@ -4,4 +4,4 @@ applications:
     path: ./target/webby.jar
     memory: 1024M
     services:
-      - webby
+      - azuresql-demo
