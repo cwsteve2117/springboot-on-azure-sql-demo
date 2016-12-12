@@ -1,0 +1,24 @@
+{
+  "resourceGroup": "jointwebinar-rg",
+  "location": "westus",
+  "sqlServerName": "webbytest",
+  "sqlServerParameters": {
+      "allowSqlServerFirewallRules": [
+          {
+              "ruleName": "rule0",
+              "startIpAddress": "10.0.0.0",
+              "endIpAddress": "10.255.255.255"
+          }
+      ],
+      "properties": {
+          "administratorLogin": "myadmin",
+          "administratorLoginPassword": "226CE9D5-F15E-4DCC-90DD-5D437AB62488"
+      }
+  },
+  "sqldbName": "webbytestDB",
+  "sqldbParameters": {
+      "properties": {
+          "collation": "SQL_Latin1_General_CP1_CI_AS"
+      }
+  }
+}
